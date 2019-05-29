@@ -1,0 +1,151 @@
+
+
+
+#product-overview {
+  background: url("images/freedom.jpg") left 10% top 34%/cover no-repeat border-box;
+  background-repeat: no-repeat;
+  width: 100%;
+  margin-top: 54px;
+  height: 628px;
+  padding: 10px;
+  position: relative;
+}
+
+.section-title {
+  color: #2ddf5c;
+  text-align: center;
+}
+
+#product-overview h1 {
+  color: white;
+  font-family: 'Anton', sans-serif;
+  position: absolute;
+  bottom:5%;
+  left: 2%;
+}
+
+/* Plans */
+
+#plans {
+  margin-top: 60px;
+}
+
+.plan_list {
+  width: 90%;
+  margin: auto;
+  text-align: center;
+}
+
+.plan {
+  background: #d5ffdc;
+  text-align: center;
+  padding: 16px;
+  margin: 8px;
+  display: inline-block;
+  width: 30%;
+  vertical-align: middle;
+}
+
+
+.plan__annotation {
+  background: white;
+  color: #19b84c;
+  padding: 10px 10px;
+  border-radius: 4px;
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+.plan--highlighted {
+  background: #19b84c;
+  color: #ffffff;
+  box-shadow: 2px 2px 10px 2px rgba(0, 0, 0, 0.5);
+  transition: background 1s;
+}
+
+.plan--highlighted:hover {
+  background: #128737;
+}
+
+.plan ul {
+  margin: 0 0 20px 0;
+  padding: 0;
+}
+
+.plan__title {
+  color: #0e4f1f;
+}
+
+.plan_price {
+  color: #19b84c;
+}
+
+.plan--highlighted .plan__title {
+  color: #ffffff;
+}
+
+.plan--highlighted .plan__price {
+  color: #000;
+}
+
+.plan__features {
+  list-style: none;
+  margin: 0 0;
+  padding: 0;
+}
+
+.plan__features li {
+  margin-bottom: 10px;
+}
+
+
+/* end plans */
+
+/* key features */
+
+#key-features {
+  background: #ff1b68;
+  margin-top: 80px;
+  padding:16px;
+}
+
+#key-features .section-title {
+  color: #ffffff;
+  margin:32px;
+
+}
+
+ul.features {
+  list-style: none;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.feature {
+  display: inline-block;
+  width: 30%;
+  vertical-align: top;
+}
+
+.feature-icon {
+  width: 150px;
+  height: 150px;
+  margin: auto;
+  background: #ffffff;
+  border: 1px solid #cccccc;
+  border-radius: 50%;
+}
+
+.key-feature__description {
+  color: #fff;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 650px) {}
