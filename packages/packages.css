@@ -3,11 +3,12 @@ main {
 }
 
 .background {
-  background: url("../images/plans-background.jpg");
+  background: url("../images/plans-background.jpg") center/cover;
   position: fixed;
   height: 100%;
   width: 100%;
   z-index: -1;
+  filter: grayscale(40%);
 }
 
 .package {
