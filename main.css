@@ -139,7 +139,11 @@ ul.features {
   background: #ffffff;
   border: 1px solid #cccccc;
   border-radius: 50%;
-  padding: 28px;
+  /* padding: 28px; */
+}
+
+.rounded {
+  border-radius: 50% 50%;
 }
 
 .key-feature__description {
