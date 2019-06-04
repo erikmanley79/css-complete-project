@@ -1,18 +1,19 @@
-
-
-
 #product-overview {
-  background: linear-gradient(to top, rgba(80, 60, 18, 0.6) 10%, transparent), url("images/freedom.jpg") left 10% top 34%/cover no-repeat border-box, #cecece;
-  background-repeat: no-repeat;
-  background-origin: border-box;
-  background-clip: border-box;
-  background-size: cover;
-  /* background-image: linear-gradient(160deg, red 20%, blue 80%, rgba(0,0,0,0.4)); */
-  /* background-image: radial-gradient(ellipse closest-corner at 20% 50%, red, blue); */
+  background: linear-gradient(to top, rgba(80, 68, 18, 0.6) 10%, transparent),
+    url("images/freedom.jpg") left 10% bottom 20%/cover no-repeat border-box,
+    #ff1b68;
+  /* background-image: url("freedom.jpg");
+    background-size: cover;
+    background-position: left 10% bottom 20%; */
+  /* background-repeat: no-repeat;
+    background-origin: border-box;
+    background-clip: border-box; */
+  /* background-image: linear-gradient(180deg, red 70%, blue 60%, rgba(0,0,0,0.5)); */
+  /* background-image: radial-gradient(ellipse farthest-corner at 20% 50%, red, blue 70%, green); */
   width: 100%;
-  margin-top: 54px;
-  height: 628px;
-  padding: 10px;
+  height: 528px;
+  margin-top: 2.75rem;
+  /* border: 5px dashed red; */
   position: relative;
 }
 
@@ -23,20 +24,14 @@
 
 #product-overview h1 {
   color: white;
-  font-family: 'Anton', sans-serif;
+  font-family: "Anton", sans-serif;
   position: absolute;
-  bottom:5%;
-  left: 2%;
+  bottom: 5%;
+  left: 3%;
 }
 
-/* Plans */
-
-#plans {
-  margin-top: 60px;
-}
-
-.plan_list {
-  width: 90%;
+.plan__list {
+  width: 80%;
   margin: auto;
   text-align: center;
 }
@@ -44,118 +39,94 @@
 .plan {
   background: #d5ffdc;
   text-align: center;
-  padding: 16px;
-  margin: 8px;
+  padding: 1rem;
+  margin: 0.5rem;
   display: inline-block;
   width: 30%;
   vertical-align: middle;
 }
 
+.plan--highlighted {
+  background: #19b84c;
+  color: white;
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
 
 .plan__annotation {
   background: white;
   color: #19b84c;
-  padding: 10px 10px;
-  border-radius: 4px;
+  padding: 0.5rem;
   box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
-}
-
-.plan--highlighted {
-  background: #19b84c;
-  color: #ffffff;
-  box-shadow: 2px 2px 10px 2px rgba(0, 0, 0, 0.5);
-  transition: background 1s;
-}
-
-.plan--highlighted:hover {
-  background: #128737;
-}
-
-.plan ul {
-  margin: 0 0 20px 0;
-  padding: 0;
+  border-radius: 8px;
 }
 
 .plan__title {
   color: #0e4f1f;
 }
 
-.plan_price {
-  color: #19b84c;
+.plan__price {
+  color: #858585;
 }
 
 .plan--highlighted .plan__title {
-  color: #ffffff;
+  color: white;
 }
 
 .plan--highlighted .plan__price {
-  color: #000;
+  color: #0e4f1f;
 }
 
 .plan__features {
   list-style: none;
-  margin: 0 0;
-  padding: 0;
-}
-
-.plan__features li {
-  margin-bottom: 10px;
-}
-
-
-/* end plans */
-
-/* key features */
-
-#key-features {
-  background: #ff1b68;
-  margin-top: 80px;
-  padding:16px;
-}
-
-#key-features .section-title {
-  color: #ffffff;
-  margin:32px;
-
-}
-
-ul.features {
-  list-style: none;
-  text-align: center;
   margin: 0;
   padding: 0;
 }
 
-.feature {
+.plan__feature {
+  margin: 0.5rem 0;
+}
+
+#key-features {
+  background: #ff1b68;
+  margin-top: 5rem;
+  padding: 1rem;
+}
+
+#key-features .section-title {
+  color: white;
+  margin: 2rem;
+}
+
+.key-feature__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.key-feature {
   display: inline-block;
   width: 30%;
   vertical-align: top;
 }
 
-.feature-icon {
-  width: 150px;
-  height: 150px;
-  margin: auto;
-  background: #ffffff;
-  border: 1px solid #cccccc;
+.key-feature__image {
+  background: #ffcede;
+  width: 128px;
+  height: 128px;
+  border: 2px solid #424242;
   border-radius: 50%;
-  padding: 28px;
-}
-
-.rounded {
-  border-radius: 50% 50%;
+  margin: auto;
+  padding: 1.5rem;
 }
 
 .key-feature__description {
-  color: #fff;
+  text-align: center;
   font-weight: bold;
+  color: white;
   font-size: 1.2rem;
 }
 
-
-
-
-
-
-
-@media screen and (max-width: 650px) {}
+/* h1 {
+    font-family: sans-serif;
+} */
